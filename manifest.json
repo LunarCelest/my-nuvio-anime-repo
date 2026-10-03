@@ -3,6 +3,15 @@
   "name": "Custom Anime Providers",
   "version": "1.0.0",
   "description": "Direct streaming scrapers for anime sites",
+  "plugins": [
+    {
+      "id": "anime_scraper",
+      "name": "ReAnime / Anikoto Scraper",
+      "filename": "providers/anime_scraper.js",
+      "supportedTypes": ["tv", "movie"],
+      "enabled": true
+    }
+  ],
   "providers": [
     {
       "id": "anime_scraper",
